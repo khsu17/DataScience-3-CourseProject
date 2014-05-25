@@ -5,12 +5,12 @@
 # 1.Merges the training and the test sets to create one data set. 
 #-----------------------------------------------------------------------------------------
 
-# Read 'features.txt' and 'activity_labels.txt' files
+# Reads 'features.txt' and 'activity_labels.txt' files
 	features <- read.table('./UCI HAR Dataset/features.txt')
 	activity.labels <- read.table('./UCI HAR Dataset/activity_labels.txt')
 	names(activity.labels) <- c('activity','activity.labels')
 
-# Read txt files in the 'train' folder
+# Reads txt files in the 'train' folder
 	x.train <- read.table('./UCI HAR Dataset/train/X_train.txt')
 	subject.train <- read.table('./UCI HAR Dataset/train/subject_train.txt')
 	y.train <- read.table('./UCI HAR Dataset/train/y_train.txt')
@@ -21,7 +21,7 @@
 
 	train <- cbind(x.train, subject.train, y.train)
 
-# Read txt files in the 'test' folder
+# Reads txt files in the 'test' folder
 	x.test <- read.table('./UCI HAR Dataset/test/X_test.txt')
 	subject.test <- read.table('./UCI HAR Dataset/test/subject_test.txt')
 	y.test <- read.table('./UCI HAR Dataset/test/y_test.txt')
