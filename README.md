@@ -2,7 +2,7 @@ Overview
 ========
 
 - README.md: this file
-- CodeBook.md: details the variables, the data, and any transformations or work
+- CodeBook.md: Description of the variables, the data, and any transformations
 - run_analysis.R: R script for tidyData.txt
 - tidyData.txt: result file
 
