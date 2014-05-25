@@ -11,13 +11,6 @@ Code Book
 ------------------
 - 180 obs. of  81 variables
 - Except first 2 columns, all variables are 'MEAN' values of its name.
-- Variables Description
-	- t: time domain signals
-	- f: frequency domain signals
-	- mean(): Mean value
-	- std(): Standard deviation
-	- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-	- X,Y,Z: 3-axial signals in the X, Y and Z directions
 
 
 3. Transformations
@@ -49,6 +42,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 > meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 > X,Y,Z: 3-axial signals in the X, Y and Z directions
+
 
 - subject: Each number indicates 30 volunteers within an age bracket of 19-48 years.
 	- int : 1:30
