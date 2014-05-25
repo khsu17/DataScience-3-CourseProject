@@ -38,12 +38,12 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 5. Variables Details
 --------------------
- *t: time domain signals/*
- *f: frequency domain signals/*
- *mean(): Mean value/*
- *std(): Standard deviation/*
- *meanFreq(): Weighted average of the frequency components to obtain a mean frequency/*
- *X,Y,Z: 3-axial signals in the X, Y and Z directions*
+ *_t_: time domain signals/*
+ *_f_: frequency domain signals/*
+ *_mean()_: Mean value/*
+ *_std()_: Standard deviation/*
+ *_meanFreq()_: Weighted average of the frequency components to obtain a mean frequency/*
+ *_X,Y,Z_: 3-axial signals in the X, Y and Z directions*
 
 - subject: Each number indicates 30 volunteers within an age bracket of 19-48 years.
 	- int : 1:30
